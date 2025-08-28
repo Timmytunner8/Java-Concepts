@@ -1,6 +1,7 @@
 package Technical;
 
 import java.util.Arrays;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
@@ -10,10 +11,10 @@ import java.util.stream.Stream;
  * Factorial
  * Check for prime number
  * Count Vowels and Consonants
- * [] Sort an array
- * Merge Two Sorted Arrays
+ * [x] Sort an array
+ * [x] Merge Two Sorted Arrays
  * Find the largest element in an array
- * Remove Duplicates
+ * [] Remove Duplicates
  * Check if two strings are anagrams
  * Reverse a number
  * Calculate GCD of two Numbers
@@ -38,8 +39,11 @@ public class Exercise {
         // Fibonacci.fibonacci(10);
 
         int [] sort = {1,6,4,3,5,7,8,9,10,6,5,34};
-        int [] newSort = Sorted.sortArray(sort);
-        System.out.printf("Sorted array: %s%n", Arrays.toString(newSort));
+        int [] sort2 = {11,42,13,74,65,36,67,78,89,10};
+        // int [] newSort = Sorted.sortArray(sort);
+        // System.out.printf("Sorted array: %s%n", Arrays.toString(newSort));
+        // int [] newSort = Sorted.mergeArray(sort, sort2);
+        // System.out.printf("Sorted array: %s%n", Arrays.toString(newSort));
     }
 }
 
@@ -73,5 +77,9 @@ class Fibonacci {
 class Sorted {
     public static int[] sortArray(int[] data) {
         return Arrays.stream(data).sorted().toArray();
+    }
+
+    public static int[] mergeArray(int[] array1, int[] array2) {
+        return IntStream.concat(Arrays.stream(array1), Arrays.stream(array2)).sorted().toArray();
     }
 }
