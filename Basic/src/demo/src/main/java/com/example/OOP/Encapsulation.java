@@ -1,4 +1,4 @@
-package OOP;
+package com.example.OOP;
 // Encapsulation --> Hide data, expose safe access.
 public class Encapsulation {
     public static void main(String[] args) {

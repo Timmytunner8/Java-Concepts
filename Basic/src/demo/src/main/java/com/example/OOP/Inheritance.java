@@ -1,4 +1,4 @@
-package OOP;
+package com.example.OOP;
 // Reuse & extend existing code.
 public class Inheritance {
     public static void main(String[] args) {

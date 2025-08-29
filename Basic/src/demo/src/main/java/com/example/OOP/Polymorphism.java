@@ -1,4 +1,4 @@
-package OOP;
+package com.example.OOP;
 // Same action, different behavior.
 public class Polymorphism {
     public static void main(String[] args) {

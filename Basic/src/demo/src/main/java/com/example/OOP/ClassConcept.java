@@ -1,4 +1,4 @@
-package OOP;
+package com.example.OOP;
 // In this source code explane the concept of Class
 // Class --> blueprint
 // Object --> real thing from the blueprint

@@ -1,4 +1,4 @@
-package Technical;
+package com.example.Technical;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;
@@ -51,17 +51,6 @@ class ReveserString {
     public static void rString(StringBuilder str) {
         System.out.printf("Original str: %s%n", str);
         System.out.printf("Reverse str: %s%n", str.reverse());
-    }
-}
-
-class Palidrome {
-    public static void isPalidrome(String str) {
-        String reverse = new StringBuilder(str).reverse().toString();
-        if (str.equals(reverse)) {
-            System.out.printf("Palidrome: Original -> %s ; Reverse %s%n", str, reverse);
-        } else {
-            System.out.printf("Palidrome: Original -> %s ; Reverse %s%n", str, reverse);
-        }
     }
 }
 

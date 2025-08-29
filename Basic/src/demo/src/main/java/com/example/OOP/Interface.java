@@ -1,4 +1,4 @@
-package OOP;
+package com.example.OOP;
 
 public class Interface {
     
