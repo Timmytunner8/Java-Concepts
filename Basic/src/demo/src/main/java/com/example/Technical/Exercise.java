@@ -13,7 +13,6 @@ import java.util.stream.Stream;
  * Count Vowels and Consonants
  * [x] Sort an array
  * [x] Merge Two Sorted Arrays
- * Find the largest element in an array
  * [] Remove Duplicates
  * Check if two strings are anagrams
  * Reverse a number
